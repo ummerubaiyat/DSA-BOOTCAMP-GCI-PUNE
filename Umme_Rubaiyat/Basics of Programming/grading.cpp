@@ -9,15 +9,15 @@ int main(int argc, char**argv){
     {
         cout<<"excellent";
     }
-    else if(marks>80 && marks<=90)
+    else if(marks>80)
     {
         cout<<"good";
     }
-    else if(marks>70 && marks<=80)
+    else if(marks>70)
     {
         cout<<"fair";
     }
-    else if(marks>60 && marks<=70)
+    else if(marks>60)
     {
         cout<<"meets expectations";
     }
