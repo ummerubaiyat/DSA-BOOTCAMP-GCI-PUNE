@@ -14,21 +14,21 @@ int main(int argc, char **argv){
     for(i=1;i<=t;i++)
     {
         cin>>n;
-        int factor =0;
+        int factors =0;
         for(int div=2;div*div<=n;div++)
         {
             if(n%div==0)
             {
-                factor= factor+1;
+                factors= factors+1;
                 break;
             }
             
         }
-         if(factor==0){
-            cout<<"Prime\n";
+         if(factors==0){
+            cout<<"prime\n";
         }
         else{
-            cout<<"Not Prime\n";
+            cout<<"not prime\n";
         }
        
     }
