@@ -30,7 +30,7 @@
 // ****
 // *****
 
- 
+     //write your code here
 
 #include <iostream>
 #include <cstdlib>
@@ -53,7 +53,7 @@ int main(int argc, char **argv){
     
     
 
-    //write your code here
+
      
 
     }

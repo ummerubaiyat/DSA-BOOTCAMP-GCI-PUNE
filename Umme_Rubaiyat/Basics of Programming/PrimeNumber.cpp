@@ -7,26 +7,28 @@ using namespace std;
 int main(int argc, char **argv){
     int t,n,i;
     cin >> t;
-    int factor =0;
+   
 
     //write your code here
     
     for(i=1;i<=t;i++)
     {
         cin>>n;
-        for(int div=1;div<=n;i++)
+        int factor =0;
+        for(int div=2;div*div<=n;div++)
         {
             if(n%div==0)
             {
                 factor= factor+1;
+                break;
             }
             
         }
-         if(factor==2){
-            cout<<"Prime";
+         if(factor==0){
+            cout<<"Prime\n";
         }
         else{
-            cout<<"Not Prime";
+            cout<<"Not Prime\n";
         }
        
     }
