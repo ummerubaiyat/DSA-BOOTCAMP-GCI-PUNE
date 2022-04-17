@@ -8,8 +8,9 @@
 using namespace std;
 
 int main(){
-    int n;
+    int n,k;
     cin >> n;
+    cin >> k;
 
     //write your code here
     int count=1;
